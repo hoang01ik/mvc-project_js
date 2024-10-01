@@ -19,6 +19,6 @@ exports.getHomePage = (req, res) => {
 exports.getProductPage = (req, res) => {
     res.render('layout', { 
         message: req.flash('success'), 
-        body: 'product'
+        body: pages.product 
     });
 };
